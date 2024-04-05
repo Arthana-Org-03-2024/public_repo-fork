@@ -6,5 +6,7 @@ jobs:
        - "3.8"
       arch: amd64
       dist: focal
+      env:
+        - secure: "443o+7z4ovVyERTEGyeZR8K58B4gGYNZr47HMopVL7VGdGi3XI9myNaoSGK6glouh1t8m11TQyl/9mKkPQRSKqWjmPj8WIZZwpeR8ZEUt9tmngXnCCdyvNCc98VDJW70W8tBmEa1IzM57y4v2Y9Teh8ayR+lJKwcujlCF1BuxD09ksc02SzWImhPUHAuXmU7Q0OEeAo3ZgPOp26Pkc521k/57h59x5tpY6Hhsj2PF1hKf6NGbW/PNMyRkxFsTRTD8o9A+J5HVOgKO8zp72vboaQD1blXuEzIswh1DFKsV2Qlwp81QhhBJ8TwCjMfEHIVx842brFTMdlhworYgdzHPO8HMA3aXGb+5JNO8+vjRmXPNKbunTTwedidVL0B00JRnMvdxW/DMXGgYytjgODiRI9vPny9gqpiq6VnajZ0BaDGMNyhFMzkIkg5y1G32lqBY+nhbQ/SAk4RTMp57HVjgiOwOOrTXL/ynSMu4/3kEGnQicM0HuRdzX2CteDmRwPDaU6AUAdqfm6ydLp37NicmvPCGbL0POxLEH0rlBr+41aWCRq1xTelWCcsh4KYFXBux+QDOyTT9jDiuFYzwOZQgBlgKLLhf52oNcDHHsltEw7VfPzYPAyf+g4qbzJcQmRhwpEZilZziv+8NNQialDYCJDPyXEuv6bk0D3FF+D9kGg="
       script:
         - python hello_world.py
